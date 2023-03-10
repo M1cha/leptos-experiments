@@ -1,0 +1,11 @@
+[package]
+name = "leptos_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console_error_panic_hook = "0.1"
+console_log = "0.2"
+gloo-timers = "0.2"
+leptos = { version = "0.2", features = ["stable"] }
+log = "0.4"
